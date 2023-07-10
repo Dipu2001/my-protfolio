@@ -1,0 +1,160 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    background-image: url("home-banner-1.jpg"), 
+    linear-gradient(rgba(17, 17, 17, 0.87),rgba(19, 19, 19, 0.87));
+    background-blend-mode: overlay;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 0px 150px;
+    position: relative;
+}
+nav{
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    color: white;
+    padding: 15px 0px;
+}
+nav h1{
+    font-size: 35px;
+    letter-spacing: 1.5px;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 28px;
+
+}
+nav ul li{
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.header-content{
+    color: white;
+    position: absolute;
+    top: 40%;
+}
+.header-content ul{
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+.header-content li{
+    background-color: rgba(82, 79, 79, 0.5);
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+.header-content h3{
+    font-size: 30px;
+    margin-bottom: 18px;
+    letter-spacing: 1px;
+}
+.header-content h1{
+    font-size: 90px;
+    letter-spacing: 1.5px;
+    margin-bottom: 25px;
+}
+.header1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.about1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #eaedf2;
+    height: 120vh;
+    
+}
+.img{
+    background-image: url("about-us.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    width: 430px;
+    border: 15px solid white;
+    border-radius: 5px;
+    box-shadow: 5px 4px 8px #919396 ;
+    position: relative;
+}
+.img ul{
+    list-style: none;
+    position: absolute;
+    top: 10%;
+}
+.img li{
+    background-color: rgb(217, 131, 46);
+    border: 5px solid white;
+    transition: all 0.8s ease 0s;
+}
+.img li:hover{
+    cursor: pointer;
+    background-color: black;
+}
+.photo h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.photo h4{
+    color: #5d5d5e;
+    margin-bottom: 15px;
+}
+.text{
+    margin-top: 60px;
+}
+.text h1{
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+.text h4{
+    font-size: 22px;
+    color: #5d5d5e;
+    margin-bottom: 20px;
+}
+.text p{
+    font-size: 20px;
+    color: #5d5d5e;
+    margin-bottom: 20px;
+}
+.text .cv{
+    display: flex;
+    gap: 30px;
+    font-size: 18px;
+}
+.cv ul{
+    list-style: none;
+}
+.cv .cv2{
+    color: #5d5d5e;
+}
+.cv li{
+    margin-bottom: 15px;
+}
+.cv1 li {
+    padding-right: 20px;
+    border-right: 1px solid #5d5d5e;
+}
+.btn1{
+    font-size: 15px;
+    padding: 15px 20px;
+    background-color: rgb(217, 131, 46);
+    color: white;
+    border: none;
+    font-weight: bold;
+    transition: all 0.8s ease 0s;
+}
+.btn1:hover{
+    cursor: pointer;
+    background-color: rgb(36, 35, 35);
+
+}
